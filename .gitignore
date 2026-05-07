@@ -1,0 +1,38 @@
+# dependencies
+/node_modules
+/.next/
+/out/
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/venv/
+**/.venv/
+**/env/
+**/.env
+
+# Database
+**/*.db
+**/*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
