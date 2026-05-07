@@ -36,3 +36,14 @@ next-env.d.ts
 # OS
 .DS_Store
 Thumbs.db
+
+# editor
+.vscode/
+
+# test / Python caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Docker override
+docker-compose.override.yml
